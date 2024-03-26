@@ -6,7 +6,7 @@
 3. Download sample datafile from [datasets page](https://qdrant.tech/documentation/datasets/#available-datasets)
 4. Install gnuplot package to your bash
 `brew install gnuplot`
-5. Start the script "stats sh" to monitor resources
+5. Start the script "stats.sh" to monitor resources
 * If planning to stop manually: `sh stats.sh <container> <filename>`
 * If you want to run it for predefined time: `sh stats.sh <container> <filename> <seconds>`
 6. Open local environment [collections page](http://localhost:6333/dashboard#/collections)
