@@ -46,7 +46,7 @@ gnuplot -persist <<-EOFMarker
     set xdata time
     set term png
     set output 'memory.png'
-    set key left top
+    set key left bottom
     plot '$FILENAME' using 1:3 with lines title "memory-used", '$FILENAME' using 1:4 with lines title "memory total"
 EOFMarker
 
